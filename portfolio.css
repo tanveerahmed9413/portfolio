@@ -106,7 +106,7 @@ section {
     justify-content: center;
     align-items: center;
     /* background: linear-gradient(135deg, #279f27, #a8e6cf, #aed61d); */
-    background-image: url(image/background-image.jpg); 
+    background-image: url(background-image.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
 }
