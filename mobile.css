@@ -115,8 +115,7 @@
         color: transparent;
     }
 
-    .left_content p {
-        font-weight: 600; 
+    .left_content p { 
         width: 100%;
         font-weight: 700;
         letter-spacing: 2px;
