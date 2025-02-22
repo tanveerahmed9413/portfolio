@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width:200px) and (max-width: 500px) {
     body {
         background-color: var(--bg-color);
         height: 100%;
@@ -154,7 +154,7 @@
         position: relative;
         top: 380px;
         text-align: center;
-        width: 350px;
+        width: 250px;
     }
 
     .hire {
@@ -191,7 +191,7 @@
         height: 40px;
         width: 40px;
         font-size: 30px;
-        display: inline-flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
@@ -225,8 +225,8 @@
     }
 
     img {
-        height: 400px;
-        width: 350px;
+        height: 300px;
+        width: 250px;
         text-align: center;
         align-items: center;
         border-radius: 10px;
@@ -321,13 +321,16 @@
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
+        text-align: center;
         margin-top: 3rem;
+        margin-right: 50px;
 
     }
 
     .certificate img {
         margin: 1rem;
         width: 100%;
+        text-align: end;
     }
 
     .achivement h2 {
