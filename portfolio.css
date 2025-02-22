@@ -106,7 +106,7 @@ section {
     justify-content: center;
     align-items: center;
     /* background: linear-gradient(135deg, #279f27, #a8e6cf, #aed61d); */
-    background-image: url(background-image.jpg); 
+    background-image: url(image/background-image.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -126,9 +126,11 @@ section {
 }
 
 .left_content p {
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: 2px;
     /* color: hotpink; */
+    font-family: "Grechen Fuemen", serif;
+    font-style: normal;
 }
 
 .left_content h3 {
