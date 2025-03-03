@@ -30,7 +30,7 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-        padding: 15px 8%;
+        padding: 50px 8%;
         position: fixed;
         top: 0;
         left: 0;
@@ -44,8 +44,9 @@
     }
 
     .nav li {
-        margin: 0 7px;
+        margin: 0 10px;
         font-weight: 600;
+        font-size: 2rem;
     }
 
     header span {
@@ -61,15 +62,16 @@
         background: var(--gradient-color-bg);
         -webkit-background-clip: text;
         color: transparent;
-        font-size: 1rem;
+        font-size: 3rem;
         display: block;
+
     }
 
     header span.second_name {
         background: var(--gradient-color-bg);
         -webkit-background-clip: text;
         color: transparent;
-        font-size: 1rem;
+        font-size: 3rem;
         display: block;
     }
 
@@ -84,19 +86,20 @@
     }
 
     section {
-        padding: 150px 8%;
+        padding: 13rem;
     }
 
     /* home section  */
 
     .home {
         min-height: 100vh;
-        display: block;
+       /* display: block;
+*/
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
         text-align: center;
-        /* width: 100%; */
+        width: 100%;
         background: linear-gradient(135deg, #7e897e, #a8e6cf, #aed61d); 
     }
 
@@ -115,7 +118,8 @@
         color: transparent;
     }
 
-    .left_content p { 
+    .left_content p {
+        font-weight: 600; 
         width: 100%;
         font-weight: 700;
         letter-spacing: 2px;
@@ -130,8 +134,8 @@
     }
 
     .image img {
-        height: 400px;
-        width: 400px;
+        height: 250px;
+        width: 250px;
         border: 3px solid var(--main-color);
         border-radius: 50%;
         position: relative;
@@ -392,7 +396,7 @@ textarea {
 /* footer */
 
 footer {
-    height: 8rem;
+    height: 10rem;
     background-color: #90979f;
     width: 100%;
     justify-content: center;
